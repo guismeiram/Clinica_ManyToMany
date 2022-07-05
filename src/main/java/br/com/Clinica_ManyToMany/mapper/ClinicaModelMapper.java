@@ -1,5 +1,15 @@
 package br.com.Clinica_ManyToMany.mapper;
 
-public class ClinicaModelMapper {
+import org.modelmapper.ModelMapper;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+
+
+@Configuration
+public class ClinicaModelMapper {
+    @Bean
+    public ModelMapper modelMapper(){
+        return new ModelMapper();
+    }
 }
