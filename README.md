@@ -5,7 +5,7 @@ Foi utilizado:
 
 -SWAGGER
 
--JPA(MANYTOONE)
+-JPA(MANYTOMANY)
 
 -LOMBOK
 
